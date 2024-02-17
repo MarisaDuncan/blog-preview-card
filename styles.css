@@ -56,6 +56,11 @@ h1 {
   font-size: 1.25rem;
 }
 
+h1:hover {
+  color: #f6d050;
+  cursor: pointer;
+}
+
 p {
   font-size: 0.75rem;
 }
