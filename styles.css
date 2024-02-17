@@ -45,8 +45,20 @@ img {
 
 .card-tag-text {
   font-weight: bold;
-  font-size: 0.75rem;
   padding: 0.25rem 0.5rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 0.75rem;
+}
+
+.description {
+  color: #949494;
+  font-size: 0.8rem;
 }
 
 .attribution {
@@ -57,6 +69,7 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
-p {
+p,
+h1 {
   font-family: Figtree;
 }
