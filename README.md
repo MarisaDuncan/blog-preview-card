@@ -24,7 +24,8 @@ Users should be able to:
 
 ![](./assets/images/screenshot.png)
 On hover:
-![](./assets/images/hover-screenshot.png)
+<br>
+<img src="./assets/images/hover-screenshot.png" alt="screenshot" height="400"/>
 
 ## My process
 
