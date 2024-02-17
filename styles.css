@@ -1,5 +1,5 @@
 body {
-  background-color: #f6d050;
+  background-color: hsl(47, 88%, 63%);
 }
 
 main {
@@ -42,7 +42,7 @@ img {
 }
 
 .card-tag {
-  background-color: #f6d050;
+  background-color: hsl(47, 88%, 63%);
   border-radius: 0.25rem;
   width: max-content;
 }
@@ -57,7 +57,7 @@ h1 {
 }
 
 h1:hover {
-  color: #f6d050;
+  color: hsl(47, 88%, 63%);
   cursor: pointer;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 .description {
-  color: #949494;
+  color: hsl(0, 0%, 50%);
   font-size: 0.8rem;
 }
 
