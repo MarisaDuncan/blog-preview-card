@@ -6,24 +6,26 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
   height: 100vh;
 }
 
 .card {
-  width: 300px;
-  height: 450px;
-  border: black 2px solid;
-  border-radius: 5%;
-  box-shadow: 5px 5px 5px black;
+  width: 22%;
+  height: 55%;
+  border: black 0.1rem solid;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
   background-color: white;
+}
+
+.card-content {
+  margin: 1rem;
 }
 
 .card-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px;
 }
 
 img {
@@ -32,5 +34,29 @@ img {
 }
 
 .article-img {
-  border-radius: 5%;
+  border-radius: 1rem;
+}
+
+.card-tag {
+  background-color: #f6d050;
+  border-radius: 0.25rem;
+  width: max-content;
+}
+
+.card-tag-text {
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+p {
+  font-family: Figtree;
 }
