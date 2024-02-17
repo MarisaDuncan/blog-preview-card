@@ -16,10 +16,13 @@ main {
   border-radius: 1rem;
   box-shadow: 0.5rem 0.5rem 0.5rem black;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-content {
   margin: 1rem;
+  height: 100%;
 }
 
 .card-image {
@@ -67,6 +70,30 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.author-container {
+  width: 100%;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.author-image-container {
+  height: 2rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  margin-right: 0.75rem;
+  width: fit-content;
+}
+
+.author-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.author-name {
+  font-weight: bold;
 }
 
 p,
